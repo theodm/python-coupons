@@ -1,4 +1,4 @@
-# python-coupons-activate
+# python-coupons
 
 Diese Anwendung aktualisiert in regelmäßigen Zeitintervallen alle verfügbaren Coupons der deutschen Bonussystem-Betreiber [Payback](https://de.wikipedia.org/wiki/Payback_(Bonusprogramm)) und [DeutschlandCard](https://de.wikipedia.org/wiki/DeutschlandCard). 
 Die entsprechenden APIs der Anbieter wurden mittels Reverse Engineering der entsprechenden mobilen Apps ermittelt. Die Anwendung wird über einen Telegram-Bot gesteuert und dieser informiert auch über entsprechende Aktivierungen. 
