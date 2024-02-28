@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "==2.31.0"
+loguru = "==0.7.2"
+dataset = "==1.6.2"
+python-dateutil = "==2.8.2"
+fabric = "==3.2.2"
+python-telegram-bot = {version = "==20.3", extras = ["all"]}
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

@@ -1,0 +1,16 @@
+[Unit]
+Description={PROJECT_SERVICE_NAME}
+
+[Service]
+Type=simple
+User=pi
+ExecStart={PROJECT_PATH}/deploy/start.sh
+WorkingDirectory={PROJECT_PATH}
+
+# Wir starten regelmäßig neu, da immer mal was
+# schief gehen kann.
+Restart=always
+RuntimeMaxSec=7d
+
+[Install]
+WantedBy=multi-user.target

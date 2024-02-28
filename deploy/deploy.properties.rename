@@ -1,0 +1,7 @@
+# Deployment configuration, recommended to install it on a device
+# which is protected by a firewall, to prevent unauthorized access
+# to your accounts (see above)
+
+DEPLOY_REMOTE_HOST = 192.168.0.78
+DEPLOY_REMOTE_USER = pi
+DEPLOY_REMOTE_PASSWORD = raspberry
