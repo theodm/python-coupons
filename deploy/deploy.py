@@ -27,6 +27,11 @@ files_to_ignore = [
     ".gitignore",
     "tmp",
     "deploy",
+
+    # Accounts nicht überschreiben
+    "accounts.db",
+    "accounts.db-shm",
+    "accounts.db-wal",
 ]
 
 # Liest die deploy.properties Datei ein.
